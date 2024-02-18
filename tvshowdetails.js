@@ -65,7 +65,7 @@ let fetchMovid = url.slice(url.indexOf("=") + 1);
 // Embed trailer
 
 const trailerFunction = (id) => {
-  return `<iframe class="youtubePlayer" src="https://www.2embed.skin/embedtvfull/tmdb/movie" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>`;
+  return `<iframe class="youtubePlayer" <iframe src="https://www.2embed.skin/embedtvfull/tmdb/movie" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>`;
 };
 
 // Get Current Movie Details from API
