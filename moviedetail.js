@@ -65,7 +65,7 @@ let fetchMovid = url.slice(url.indexOf("=") + 1);
 // Embed trailer
 
 const trailerFunction = (id) => {
-  return `<iframe class="youtubePlayer" src="https://autoembed.to/trailer/movie/${id}" width="100%" height="100%" loading="lazy" frameborder="0" allowfullscreen></iframe>`;
+  return `<iframe class="youtubePlayer" src="https://www.2embed.skin/trailer/movie/${id}" width="100%" height="100%" loading="lazy" frameborder="0" allowfullscreen></iframe>`;
 };
 
 // Get Current Movie Details from API
@@ -150,7 +150,7 @@ newPicks().then((movies) => {
 
 const playBtn = (mov) => {
   return ` <span class="pplay">
-  <a href="https://www.2embed.to/embed/imdb/movie?id=${mov.imdb_id}" class="plabtn">
+  <a href="https://www.2embed.skin/embed/imdb/movie?id=${mov.imdb_id}" class="plabtn">
   <ion-icon name="play-circle"></ion-icon>
 </a>
 
@@ -202,7 +202,7 @@ const currMov = (mov) => {
                 <div class="watch">
                 <ion-icon name="play-circle-outline"></ion-icon>
                     
-                        <a href="https://www.2embed.to/embed/imdb/movie?id=${
+                        <a href="https://www.2embed.skin/embed/imdb/movie?id=${
                           mov.imdb_id
                         }" class="watchme"><div>Watch Now</div></a>
 
