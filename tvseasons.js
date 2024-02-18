@@ -28,7 +28,7 @@ const close = document.querySelector(".close").addEventListener("click", () => {
   mobileMenu.style.display = "none";
 });
 
-const myApiKey = "c73159ae3e0b40cf0883d7a33c0fea7f";
+const myApiKey = "9bf989f6bdfe3fc1ef2c288b9108d612";
 
 // get current url
 let url = document.location.href;
