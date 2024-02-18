@@ -131,7 +131,7 @@ seasonsNow(1);
 const epiNow = (currs) => {
   return `<li class="tvepis">
   <div class="prevws">
-      <a href=" https://www.2embed.to/embed/tmdb/tv?id=${fetchMovid}&s=${currs.season_number}&e=${currs.episode_number}" class="plabtn">
+      <a href=" https://www.2embed.skin/embed/tmdb/tv?id=${fetchMovid}&s=${currs.season_number}&e=${currs.episode_number}" class="plabtn">
           <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.183197in"
               height="0.198622in" version="1.1"
               style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
