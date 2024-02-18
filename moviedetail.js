@@ -202,7 +202,7 @@ const currMov = (mov) => {
                 <div class="watch">
                 <ion-icon name="play-circle-outline"></ion-icon>
                     
-                        <a href="https://www.2embed.skin/embed/tmdb/movie?id=${
+                        <a href="https://www.2embed.cc/embed/IMDB-ID/movie?id=${
                           mov.tmdb_id
                         }" class="watchme"><div>Watch Now</div></a>
 
