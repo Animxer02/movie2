@@ -31,7 +31,7 @@ const close = document.querySelector(".close").addEventListener("click", () => {
   mobileMenu.style.display = "none";
 });
 
-const myApiKey = "c73159ae3e0b40cf0883d7a33c0fea7f";
+const myApiKey = "9bf989f6bdfe3fc1ef2c288b9108d612";
 
 let genHtml = "";
 let categoryID;
@@ -63,7 +63,7 @@ myGenre();
 
 const tvShowLists = async () => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/discover/tv?api_key=6b2dec73b6697866a50cdaef60ccffcb&language=en-US&page=${initialPage}&with_genres=${categoryID}`
+    `https://api.themoviedb.org/3/discover/tv?api_key=9bf989f6bdfe3fc1ef2c288b9108d612&language=en-US&page=${initialPage}&with_genres=${categoryID}`
   );
 
   const data = await res.json();
