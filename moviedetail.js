@@ -150,7 +150,7 @@ newPicks().then((movies) => {
 
 const playBtn = (mov) => {
   return ` <span class="pplay">
-  <a href="https://www.2embed.skin/embed/tmdb/movie?id=${mov.imdb_id}" class="plabtn">
+  <a href="https://www.2embed.skin/embed/tmdb/movie?id=${mov.tmdb_id}" class="plabtn">
   <ion-icon name="play-circle"></ion-icon>
 </a>
 
